@@ -26,27 +26,32 @@
                 android:padding="24dp">
 
                 <ImageView
+                    android:id="@+id/ivProfileImage"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/ic_profile_large"
                     android:background="@drawable/circle_bg_white"
                     android:padding="16dp"
-                    android:layout_marginBottom="16dp" />
+                    android:layout_marginBottom="16dp"
+                    android:clickable="true"
+                    android:focusable="true" />
 
                 <TextView
+                    android:id="@+id/tvUserName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="John Doe"
-                    android:textColor="@color/white"
+                    android:text="@string/default_user_name"
+                    android:textColor="@android:color/white"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:layout_marginBottom="4dp" />
 
                 <TextView
+                    android:id="@+id/tvUserTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fitness Enthusiast"
-                    android:textColor="@color/white"
+                    android:text="@string/default_user_title"
+                    android:textColor="@android:color/white"
                     android:textSize="14sp"
                     android:alpha="0.8" />
 
@@ -64,30 +69,31 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginBottom="24dp"
+                android:orientation="horizontal"
                 android:weightSum="3">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
                         android:gravity="center"
+                        android:orientation="vertical"
                         android:padding="16dp">
 
                         <TextView
+                            android:id="@+id/tvTotalWorkouts"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="127"
+                            android:text="@string/default_total_workouts"
                             android:textColor="@color/primary_blue"
                             android:textSize="24sp"
                             android:textStyle="bold" />
@@ -95,10 +101,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@string/total_workouts"
                             android:textColor="@color/secondary_gray"
-                            android:textSize="12sp"
-                            android:gravity="center" />
+                            android:textSize="12sp" />
 
                     </LinearLayout>
 
@@ -107,22 +113,23 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginHorizontal="8dp"
+                    android:layout_weight="1"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
                         android:gravity="center"
+                        android:orientation="vertical"
                         android:padding="16dp">
 
                         <TextView
+                            android:id="@+id/tvWorkoutStreak"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="15"
+                            android:text="@string/default_workout_streak"
                             android:textColor="@color/accent_green"
                             android:textSize="24sp"
                             android:textStyle="bold" />
@@ -130,10 +137,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@string/workout_streak"
                             android:textColor="@color/secondary_gray"
-                            android:textSize="12sp"
-                            android:gravity="center" />
+                            android:textSize="12sp" />
 
                     </LinearLayout>
 
@@ -142,22 +149,23 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
                     android:layout_marginStart="8dp"
+                    android:layout_weight="1"
                     app:cardCornerRadius="12dp"
                     app:cardElevation="4dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
                         android:gravity="center"
+                        android:orientation="vertical"
                         android:padding="16dp">
 
                         <TextView
+                            android:id="@+id/tvAchievements"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="8"
+                            android:text="@string/default_achievements_count"
                             android:textColor="@color/accent_orange"
                             android:textSize="24sp"
                             android:textStyle="bold" />
@@ -165,10 +173,10 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:gravity="center"
                             android:text="@string/achievements"
                             android:textColor="@color/secondary_gray"
-                            android:textSize="12sp"
-                            android:gravity="center" />
+                            android:textSize="12sp" />
 
                     </LinearLayout>
 
@@ -180,11 +188,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:text="@string/achievements"
                 android:textColor="@color/secondary_dark_gray"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginBottom="16dp" />
+                android:textStyle="bold" />
 
             <!-- Achievement Card 1 -->
             <androidx.cardview.widget.CardView
@@ -197,17 +205,17 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/ic_trophy"
+                        android:layout_marginEnd="16dp"
                         android:background="@drawable/circle_bg_gold"
                         android:padding="8dp"
-                        android:layout_marginEnd="16dp" />
+                        android:src="@drawable/ic_trophy" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -218,7 +226,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="First 5K Completed"
+                            android:text="@string/achievement_first_5k_title"
                             android:textColor="@color/secondary_dark_gray"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -226,7 +234,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Completed your first 5K run!"
+                            android:text="@string/achievement_first_5k_desc"
                             android:textColor="@color/secondary_gray"
                             android:textSize="14sp" />
 
@@ -235,7 +243,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gold"
+                        android:text="@string/achievement_gold"
                         android:textColor="@color/accent_orange"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -255,17 +263,17 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/ic_fire"
+                        android:layout_marginEnd="16dp"
                         android:background="@drawable/circle_bg_red"
                         android:padding="8dp"
-                        android:layout_marginEnd="16dp" />
+                        android:src="@drawable/ic_fire" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -276,7 +284,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="7-Day Streak"
+                            android:text="@string/achievement_7_day_streak_title"
                             android:textColor="@color/secondary_dark_gray"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -284,7 +292,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Workout for 7 days straight"
+                            android:text="@string/achievement_7_day_streak_desc"
                             android:textColor="@color/secondary_gray"
                             android:textSize="14sp" />
 
@@ -293,7 +301,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bronze"
+                        android:text="@string/achievement_bronze"
                         android:textColor="@color/secondary_gray"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -313,17 +321,17 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <ImageView
                         android:layout_width="40dp"
                         android:layout_height="40dp"
-                        android:src="@drawable/ic_strength"
+                        android:layout_marginEnd="16dp"
                         android:background="@drawable/circle_bg_green"
                         android:padding="8dp"
-                        android:layout_marginEnd="16dp" />
+                        android:src="@drawable/ic_strength" />
 
                     <LinearLayout
                         android:layout_width="0dp"
@@ -334,7 +342,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Strength Master"
+                            android:text="@string/achievement_strength_master_title"
                             android:textColor="@color/secondary_dark_gray"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -342,7 +350,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Complete 50 strength workouts"
+                            android:text="@string/achievement_strength_master_desc"
                             android:textColor="@color/secondary_gray"
                             android:textSize="14sp" />
 
@@ -351,7 +359,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Silver"
+                        android:text="@string/achievement_silver"
                         android:textColor="@color/secondary_gray"
                         android:textSize="12sp"
                         android:textStyle="bold" />
@@ -364,12 +372,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Personal Information"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/personal_information"
                 android:textColor="@color/secondary_dark_gray"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp" />
+                android:textStyle="bold" />
 
             <!-- Info Cards -->
             <androidx.cardview.widget.CardView
@@ -382,22 +390,23 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Age"
+                        android:text="@string/age_label"
                         android:textColor="@color/secondary_gray"
                         android:textSize="14sp" />
 
                     <TextView
+                        android:id="@+id/tvAge"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="28 years"
+                        android:text="@string/default_age"
                         android:textColor="@color/secondary_dark_gray"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -416,22 +425,23 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Height"
+                        android:text="@string/height_label"
                         android:textColor="@color/secondary_gray"
                         android:textSize="14sp" />
 
                     <TextView
+                        android:id="@+id/tvHeight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5'10\"
+                        android:text="@string/default_height"
                         android:textColor="@color/secondary_dark_gray"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -450,22 +460,23 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal"
-                    android:padding="16dp"
-                    android:gravity="center_vertical">
+                    android:padding="16dp">
 
                     <TextView
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="Weight"
+                        android:text="@string/weight_label"
                         android:textColor="@color/secondary_gray"
                         android:textSize="14sp" />
 
                     <TextView
+                        android:id="@+id/tvWeight"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="75 kg"
+                        android:text="@string/default_weight"
                         android:textColor="@color/secondary_dark_gray"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -478,13 +489,13 @@
             <Button
                 android:id="@+id/btnEditProfile"
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginBottom="16dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/button_secondary_bg"
                 android:text="@string/edit_profile"
-                android:textColor="@color/white"
+                android:textColor="@android:color/white"
                 android:textSize="16sp"
-                android:textStyle="bold"
-                android:background="@drawable/button_secondary_bg" />
+                android:textStyle="bold" />
 
         </LinearLayout>
 

@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/primary_blue"
-        app:title="Cardio Workout"
+        app:title="@string/cardio_workout_title"
         app:titleTextColor="@color/white"
         app:navigationIcon="?attr/homeAsUpIndicator"
         app:navigationIconTint="@color/white" />
@@ -31,7 +31,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Cardio Blast"
+                android:text="@string/workout_title_cardio_blast"
                 android:textSize="28sp"
                 android:textStyle="bold"
                 android:textColor="@color/secondary_dark_gray"
@@ -41,7 +41,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="8 exercises • 30 seconds each"
+                android:text="@string/workout_description"
                 android:textSize="16sp"
                 android:textColor="@color/secondary_gray"
                 android:layout_marginBottom="32dp"
@@ -65,7 +65,7 @@
                         android:id="@+id/currentExerciseText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Jumping Jacks"
+                        android:text="@string/default_exercise_name"
                         android:textSize="24sp"
                         android:textStyle="bold"
                         android:textColor="@color/primary_blue"
@@ -93,7 +93,7 @@
                         android:id="@+id/timerText"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="30"
+                        android:text="@string/default_timer_seconds"
                         android:textSize="72sp"
                         android:textStyle="bold"
                         android:textColor="@color/primary_blue"
@@ -102,7 +102,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Seconds Remaining"
+                        android:text="@string/seconds_remaining"
                         android:textSize="16sp"
                         android:textColor="@color/secondary_gray" />
 
@@ -122,7 +122,7 @@
                     android:layout_height="56dp"
                     android:layout_weight="2"
                     android:layout_marginEnd="8dp"
-                    android:text="Start"
+                    android:text="@string/btn_start"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold"
@@ -134,7 +134,7 @@
                     android:layout_height="56dp"
                     android:layout_weight="1"
                     android:layout_marginStart="8dp"
-                    android:text="Reset"
+                    android:text="@string/btn_reset"
                     android:textColor="@color/accent_red"
                     android:textSize="16sp"
                     android:background="@drawable/button_secondary_bg" />
@@ -156,7 +156,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Cardio Sequence"
+                        android:text="@string/cardio_sequence_title"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         android:textColor="@color/secondary_dark_gray"
@@ -165,7 +165,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Jumping Jacks\n• High Knees\n• Burpees\n• Mountain Climbers\n• Running in Place\n• Jump Squats\n• Butt Kicks\n• Star Jumps"
+                        android:text="@string/cardio_exercise_list"
                         android:textSize="16sp"
                         android:textColor="@color/secondary_gray"
                         android:lineSpacingExtra="4dp" />

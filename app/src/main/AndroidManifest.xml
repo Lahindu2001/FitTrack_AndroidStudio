@@ -81,6 +81,31 @@
             android:parentActivityName=".MainActivity"
             android:theme="@style/Theme.FitTrack" />
 
+        <!-- NEW TIP ACTIVITIES -->
+        <!-- Cardio Tips Activity (navigates from TipsFragment) -->
+        <activity
+            android:name=".CardioTipsActivity"
+            android:exported="false"
+            android:label="Cardio Tips"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.FitTrack" />
+
+        <!-- Strength Tips Activity (navigates from TipsFragment) -->
+        <activity
+            android:name=".StrengthTipsActivity"
+            android:exported="false"
+            android:label="Strength Tips"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.FitTrack" />
+
+        <!-- Nutrition Tips Activity (navigates from TipsFragment) -->
+        <activity
+            android:name=".NutritionTipsActivity"
+            android:exported="false"
+            android:label="Nutrition Tips"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.FitTrack" />
+
     </application>
 
 </manifest>

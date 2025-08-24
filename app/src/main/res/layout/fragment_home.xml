@@ -287,7 +287,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- Additional Activity 1 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -344,7 +343,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- Additional Activity 2 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -401,7 +399,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- Additional Activity 3 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -458,7 +455,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- Additional Activity 4 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -515,7 +511,6 @@
 
         </androidx.cardview.widget.CardView>
 
-        <!-- Additional Activity 5 -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -528,6 +523,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:padding="16dp"
+                android:layout_marginBottom="50dp"
                 android:gravity="center_vertical">
 
                 <ImageView

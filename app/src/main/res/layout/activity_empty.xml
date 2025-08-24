@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/primary_blue"
-        app:title="Coming Soon"
+        app:title="@string/coming_soon_title"
         app:titleTextColor="@color/white"
         app:navigationIcon="?attr/homeAsUpIndicator"
         app:navigationIconTint="@color/white" />
@@ -33,7 +33,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Coming Soon!"
+            android:text="@string/coming_soon_title"
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="@color/secondary_dark_gray"
@@ -43,7 +43,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This feature is under development\nand will be available soon."
+            android:text="@string/coming_soon_message"
             android:textSize="16sp"
             android:textColor="@color/secondary_gray"
             android:gravity="center"

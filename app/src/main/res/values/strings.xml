@@ -26,7 +26,7 @@
 
     <!-- Home Screen -->
     <string name="welcome_back">Welcome back!</string>
-    <string name="todays_summary">Today\'s Summary</string>
+    <string name="todays_summary">Today and aposs Summary</string>
     <string name="workouts_completed">Workouts Completed</string>
     <string name="calories_burned">Calories Burned</string>
     <string name="active_minutes">Active Minutes</string>
@@ -58,5 +58,96 @@
     <string name="view_past_workouts">View your past workouts</string>
     <string name="settings">Settings</string>
     <string name="app_preferences">App preferences and privacy</string>
+
+    <!-- Profile Screen - Additional strings needed -->
+    <string name="default_user_name">John Doe</string>
+    <string name="default_user_title">Fitness Enthusiast</string>
+    <string name="default_total_workouts">127</string>
+    <string name="default_workout_streak">15</string>
+    <string name="default_achievements_count">8</string>
+
+    <!-- Achievement titles and descriptions -->
+    <string name="achievement_first_5k_title">First 5K Completed</string>
+    <string name="achievement_first_5k_desc">Completed your first 5K run!</string>
+    <string name="achievement_7_day_streak_title">7-Day Streak</string>
+    <string name="achievement_7_day_streak_desc">Workout for 7 days straight</string>
+    <string name="achievement_strength_master_title">Strength Master</string>
+    <string name="achievement_strength_master_desc">Complete 50 strength workouts</string>
+
+    <!-- Achievement levels -->
+    <string name="achievement_gold">Gold</string>
+    <string name="achievement_silver">Silver</string>
+    <string name="achievement_bronze">Bronze</string>
+
+    <!-- Personal Information -->
+    <string name="personal_information">Personal Information</string>
+    <string name="age_label">Age</string>
+    <string name="height_label">Height</string>
+    <string name="weight_label">Weight</string>
+
+    <!-- Default personal info values -->
+    <string name="default_age">28 years</string>
+    <string name="default_height">5 inch 10"</string>
+    <string name="default_weight">75 kg</string>
+
+    <!-- Cardio Tips Screen -->
+    <string name="cardio_tips_title">Cardio Tips</string>
+    <string name="back_to_tips">Back to Tips</string>
+
+    <!-- Cardio Tip Titles -->
+    <string name="cardio_tip_1_title">Start with Low Impact</string>
+    <string name="cardio_tip_2_title">Monitor Your Heart Rate</string>
+    <string name="cardio_tip_3_title">Mix Different Activities</string>
+    <string name="cardio_tip_4_title">Try Interval Training</string>
+    <string name="cardio_tip_5_title">Listen to Your Body</string>
+
+    <!-- Cardio Tip Descriptions -->
+    <string name="cardio_tip_1_desc">Begin with walking, swimming, or cycling. These activities are easier on joints while building cardiovascular endurance.</string>
+    <string name="cardio_tip_2_desc">Aim for 50 to 85% of your maximum heart rate. Calculate it as 220 minus your age for maximum heart rate.</string>
+    <string name="cardio_tip_3_desc">Vary your cardio routine with running, dancing, rowing, or elliptical training to prevent boredom and work different muscle groups.</string>
+    <string name="cardio_tip_4_desc">Alternate between high-intensity bursts and recovery periods. This improves cardiovascular fitness and burns more calories.</string>
+    <string name="cardio_tip_5_desc">If you feel dizzy, short of breath, or experience chest pain, stop exercising immediately and consult a healthcare professional.</string>
+
+    <!-- Cardio Workout Screen -->
+    <string name="cardio_workout_title">Cardio Workout</string>
+    <string name="workout_title_cardio_blast">Cardio Blast</string>
+    <string name="workout_description">8 exercises 30 seconds each</string>
+    <string name="default_exercise_name">Jumping Jacks</string>
+    <string name="default_timer_seconds">30</string>
+    <string name="seconds_remaining">Seconds Remaining</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_reset">Reset</string>
+    <string name="cardio_sequence_title">Cardio Sequence</string>
+    <string name="cardio_exercise_list">• Jumping Jacks\n• High Knees\n• Burpees\n• Mountain Climbers\n• Running in Place\n• Jump Squats\n• Butt Kicks\n• Star Jumps</string>
+
+    <!-- Individual Exercise Names -->
+    <string name="exercise_jumping_jacks">Jumping Jacks</string>
+    <string name="exercise_high_knees">High Knees</string>
+    <string name="exercise_burpees">Burpees</string>
+    <string name="exercise_mountain_climbers">Mountain Climbers</string>
+    <string name="exercise_running_in_place">Running in Place</string>
+    <string name="exercise_jump_squats">Jump Squats</string>
+    <string name="exercise_butt_kicks">Butt Kicks</string>
+    <string name="exercise_star_jumps">Star Jumps</string>
+
+    <!-- New strings for layout -->
+    <string name="coming_soon_title">Coming Soon</string>
+    <string name="coming_soon_message">This feature is under development\nand will be available soon.</string>
+
+    <!-- New strings for Nutrition Tips Screen -->
+    <string name="nutrition_tips_title">Nutrition Tips</string>
+    <string name="back_to_tips_desc">Back to Tips</string>
+    <string name="tip_eat_balanced_meals_title">Eat Balanced Meals</string>
+    <string name="tip_eat_balanced_meals_desc">Include protein, healthy fats, and complex carbohydrates in each meal. This provides sustained energy and supports muscle recovery.</string>
+    <string name="tip_stay_hydrated_title">Stay Hydrated</string>
+    <string name="tip_stay_hydrated_desc">Drink at least 8 glasses of water daily. Increase intake during workouts and hot weather to maintain optimal hydration.</string>
+    <string name="tip_pre_workout_fuel_title">Pre-Workout Fuel</string>
+    <string name="tip_pre_workout_fuel_desc">Eat a light snack with carbs and protein 30 to 60 minutes before exercise. Bananas, oatmeal, or yogurt are excellent choices.</string>
+    <string name="tip_post_workout_recovery_title">Post-Workout Recovery</string>
+    <string name="tip_post_workout_recovery_desc">Consume protein and carbs within 30 minutes after exercise to optimize muscle recovery and replenish energy stores.</string>
+    <string name="tip_control_portion_sizes_title">Control Portion Sizes</string>
+    <string name="tip_control_portion_sizes_desc">Use smaller plates and listen to hunger cues. Eat slowly to allow your brain to register fullness and prevent overeating.</string>
+    <string name="tip_choose_whole_foods_title">Choose Whole Foods</string>
+    <string name="tip_choose_whole_foods_desc">Prioritize fresh fruits, vegetables, lean proteins, and whole grains over processed foods. They provide more nutrients and fewer empty calories.</string>
 
 </resources>
