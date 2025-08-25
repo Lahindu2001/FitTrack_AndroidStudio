@@ -31,7 +31,7 @@ class HomeFragment : Fragment() {
         val profileImageView = view.findViewById<ImageView>(R.id.ivProfile)
         profileImageView.setOnClickListener {
             try {
-                // Navigate to ProfileFragment using fragment transaction
+                // Navigate to ProfileFragment using fragment transactiwon
                 parentFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, ProfileFragment())
                     .addToBackStack(null)

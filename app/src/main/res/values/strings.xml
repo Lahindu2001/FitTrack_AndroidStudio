@@ -150,4 +150,6 @@
     <string name="tip_choose_whole_foods_title">Choose Whole Foods</string>
     <string name="tip_choose_whole_foods_desc">Prioritize fresh fruits, vegetables, lean proteins, and whole grains over processed foods. They provide more nutrients and fewer empty calories.</string>
 
+
+    <string name="search_activities">Search workouts...</string>
 </resources>
